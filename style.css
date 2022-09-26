@@ -85,7 +85,7 @@ body {
 
 /*====  LAYOUT ============================ */
 .container {
-  margin-left: 1.5rem;
+  /* margin-left: 1.5rem; */
   margin-right: 1.5rem;
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 20px ;
 }
 
 .section .title {
@@ -153,7 +153,13 @@ color: rgb(0, 0, 0) !important;
 }
 
 main {
-  margin-top: calc(var(--header-height) + 2rem);
+  margin-top: 5px;
+  padding: 150px;
+  gap: 100%;
+  max-width: fit-content;
+  display: block;
+
+
 }
 
 /*====  LOGO ============================ */
@@ -281,20 +287,9 @@ nav.show div.icon-close {
   position: relative;
 }
 
-#home .image::before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: var(--base-color-second);
-  position: absolute;
-  top: -16.8%;
-  left: 16.7%;
-  z-index: 0;
-}
-
 #home .image img {
   position: relative;
-  right: 2.93rem;
+;
 }
 
 #home .image img,
@@ -325,18 +320,8 @@ nav.show div.icon-close {
 }
 
 #about .image {
-  position: relative;
-}
-
-#about .image::before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: var(--base-color-second);
-  position: absolute;
-  top: -8.3%;
-  left: -33%;
-  z-index: 0;
+  padding: px;
+  gap: 20;
 }
 
 #about .image img {
@@ -355,16 +340,17 @@ nav.show div.icon-close {
 
 /*====  Services ============================ */
 .cards.grid {
-  gap: 1.5rem;
+  gap: 1.0rem;
   display: flex;
 }
 
 .card {
   padding: 3.625rem 2rem;
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.08);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-bottom: 0.25rem solid var(--base-color);
   border-radius: .25rem .25rem 0 0;
   text-align: center;
+  background-color: rgba(7, 5, 5, 0.062);
 }
 
 .card i {
@@ -372,7 +358,7 @@ nav.show div.icon-close {
   margin-bottom: 1.5rem;
   font-size: 5rem;
   color: var(--base-color);
-
+  
 }
 
 .card .title {
@@ -387,7 +373,7 @@ nav.show div.icon-close {
 
 
 } div .text {
-  justify-content: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 2px;
+  gap: 20px;
 }
+
