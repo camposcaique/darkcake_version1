@@ -3,7 +3,7 @@
 ![preview](./assets/darckcake-preview.png)
 
 Projeto ainda em construção.
-Site de pedidos de bolos, doces, panetones e cookies da loja Dark Cake.
+> Site de pedidos de bolos, doces, panetones e cookies da loja Dark Cake.
 
 [Clique aqui para acessar](https://camposcaique.github.io/darkcake_project2)
 
